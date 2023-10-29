@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a flower image classification system that uses a neural network to classify different species of flowers.
+As AI algorithms become more integrated into everyday applications, this project demonstrates the development of an AI application for image classification. The application uses a deep learning model to classify different species of flowers and can serve as a component in a wide range of applications, such as a smartphone app that identifies flowers through the camera.
 
 ## Table of Contents
 
@@ -16,11 +16,14 @@ This project is a flower image classification system that uses a neural network 
 
 ## Introduction
 
-The project consists of two main components: training and prediction.
+The project is divided into multiple steps:
 
-- **Training**: This component trains a neural network using flower images to classify different flower species.
+1. **Load and preprocess the image dataset**: The dataset, which contains 102 flower categories, is loaded and preprocessed for training and validation.
+2. **Train the image classifier**: A pre-trained network is used to extract image features, and a new feed-forward classifier is trained to recognize flower species.
+3. **Use the trained classifier to predict image content**: The trained model is used for predicting the content of new images.
 
-- **Prediction**: This component uses a pre-trained model to predict the flower species of a given image.
+Upon completion, the project will result in a command-line application that can be trained on any set of labeled images.
+
 
 ## Prerequisites
 
@@ -90,5 +93,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Special thanks to the [Udacity](https://www.udacity.com/) team for providing the project guidelines and data.
-- Flower images dataset sourced from [source](https://example.com).
+- Flower images dataset sourced from [source](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html).
 
